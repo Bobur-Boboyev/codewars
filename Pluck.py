@@ -1,4 +1,4 @@
-def pluck(objs, name): 
+def pluck(objs: list[dict[str: int]], name: str)-> list: 
     ls = []
     
     for i in objs:
